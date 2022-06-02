@@ -42,6 +42,6 @@ touch.on(input_[3], 'tap', function () {
         localStorage.setItem("phone", input_[0].value);
         localStorage.setItem("password", input_[2].value);
         alert('注册成功,即将跳转到登录页面');
-        setTimeout(window.location.href = '../login.html', 2);
+        setTimeout(window.location.href = 'login.html', 2);
     }
 })
