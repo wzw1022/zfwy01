@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>找房无忧-我的登录页面</title>
+    <link rel="stylesheet" href="./css/normallize.css">
+    <link rel="stylesheet" href="./css/mylogin.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <span class="head-logo"><a href="#"><img src="./image/index/logo.jpg" alt=""></a></span>
+        <span class="head-right">
+            <a href="./my.html"><img src="./image/index/my.jpg" alt=""></a>
+            <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
+        </span>
+    </header>
+    <!-- 中间部分 -->
+    <div class="section">
+        <p>
+            <a href="./index.html"><span class="section_s">首页</span></a>
+            >
+            <span>我的</span>
+        </p>
+    </div>
+    <!-- --- -->
+    <div class="section_1">
+        <img src="./image/my/urse2.png" alt="">
+        <p>欢迎你，18686868686</p>
+    </div>
+    <!-- 文字 -->
+    <div class="section_2">
+        <ul>
+            <li>
+                <a href="./rentalDetails.html">我关注的房源</a>
+            </li>
+            <li>
+                <a href="./myHouse.html">我关注的小区</a>
+            </li>
+            <li>
+                <a href="./myHouse.html">我的看房记录</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 退出  -->
+    <a class="tuichu" href="">退出</a>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w, clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+
+
+</script>

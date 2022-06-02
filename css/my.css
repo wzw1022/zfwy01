@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.section {
+    position: relative;
+}
+
+.section .img1 {
+    width: 100%;
+    vertical-align: top;
+}
+
+.section_1 {
+    position: absolute;
+    top: 2.2rem;
+    right: 1.6rem;
+}
+
+.section a {
+    color: #ffffff;
+    margin-left: 2rem;
+    height: 3.2rem;
+    display: inline-block;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section_1 a:first-of-type {
+    background: url(../image/my/urse.png)no-repeat center 0;
+    background-size: 1.4rem 1.5rem;
+}
+
+.section_1 a:last-of-type {
+    background: url(../image/my/down.png)no-repeat center 0;
+    background-size: 1.4rem 1.5rem;
+}
+
+.section .zhao {
+    width: 5.3rem;
+    height: 5.3rem;
+    position: absolute;
+    left: 16.3rem;
+    top: 7.8rem;
+}
+
+.section .deng {
+    position: absolute;
+    top: 15.3rem;
+    left: 13.4rem;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: .6rem 2rem;
+}
+
+.section_2 {
+    padding: 0 2rem;
+    margin-top: 1.2rem;
+}
+
+.section_2 li {
+    display: block;
+    height: 4.3rem;
+    line-height: 4.3rem;
+    border-bottom: 1px solid #dcdcdc;
+    background: url(../image/my/right.png) no-repeat right center;
+    background-size: .7rem 1.4rem;
+    margin-left: 1.4rem;
+    margin-right: 2.4rem;
+    font-size: 1.4rem;
+}
+
+
+.section_2 li a {
+    color: #666;
+}
+
+.section_2 li img {
+    width: 2rem;
+    height: 2rem;
+}

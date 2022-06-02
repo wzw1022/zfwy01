@@ -1,0 +1,435 @@
+/* 头部 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 138, 0);
+}
+
+.head-logo {
+    height: 4rem;
+}
+
+.head-logo>a>img {
+    height: 100%;
+}
+
+.head-right {
+    height: 3.5rem;
+}
+
+.head-right>a>img {
+    height: 100%;
+    margin-left: 1.5rem;
+}
+
+/* 轮播图 */
+.swiper {
+    width: 100%;
+    height: 22.5rem;
+}
+
+.swiper img {
+    width: 100%;
+    height: 22.5rem;
+}
+
+/* 房屋简介 */
+.section {
+    width: 100%;
+    height: 22rem;
+    padding: 3rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(189, 188, 188);
+}
+
+.section h2 {
+    font-size: 2.1rem;
+}
+
+.section p:nth-of-type(1) {
+    margin-top: 1.7rem;
+    background: url(../image/SecondHandList/phone.png) no-repeat right center;
+    background-size: contain;
+}
+
+.section p span {
+    color: red;
+}
+
+.section .section_p2 {
+    color: #B0B0B0;
+    margin-top: 1.7rem;
+}
+
+.section .section_p3 {
+    margin-top: 1.7rem;
+}
+
+.section_p3 {
+    display: flex;
+}
+
+.section .section_p3 a {
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    color: #849AAE;
+    line-height: 3rem;
+    background-color: #DEE9F0;
+}
+
+.section_p3 a:nth-of-type(2),
+.section_p3 a:nth-of-type(3) {
+    margin-left: 1.5rem;
+}
+
+/* 户型 */
+.section_2 {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 1.5rem;
+    padding: 0 3rem;
+}
+
+.section_2 li {
+    height: 5.4rem;
+    line-height: 5.4rem;
+    border-bottom: 1px solid#e5e5e5;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.section_2 ul li .section_h {
+    /* display: inline-block; */
+    width: 48%;
+}
+
+.section_2 ul .section_2_li {
+    border-bottom: none;
+    justify-content: center;
+    color: #999;
+}
+
+/* 房源特色 */
+.section_3,
+.section_4,
+.section_5,
+.section_6 {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 1.5rem;
+    padding: 0 3rem;
+}
+
+.section_3 h2 {
+    color: #ff9326;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1.2rem;
+
+}
+
+.section_3 p:first-of-type {
+    margin-top: 1.2rem;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 1.5rem 0;
+    line-height: 3rem;
+    font-size: 1.4rem;
+}
+
+.section_3 p:last-of-type {
+    color: #999;
+    text-align: center;
+    line-height: 4.5rem;
+}
+
+/* <!-- 户型分间 --> */
+
+.section_4 h2 {
+    color: #ff9326;
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1.2rem;
+}
+
+.section_4 li:first-of-type {
+    padding: 1.4rem 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #ff8a00;
+    display: flex;
+}
+
+.section_4 .lf img {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+
+.section_4 .rg h2 {
+    font-size: 1.7rem;
+    color: black;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
+.section_4 .rg p:first-of-type {
+    white-space: nowrap;
+    line-height: .3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.section_4 .rg p:last-of-type span {
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    background-color: #F4F7F9;
+    padding: 0.05rem;
+    color: #849aae;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding-top: .7rem;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.section_4 li:last-of-type {
+    padding: 1.4rem 0;
+    display: flex;
+}
+
+/* 对口学校 */
+.section_5 h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1.2rem;
+}
+
+.section_5 li {
+    font-size: 1.4rem;
+    line-height: 5.5rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.section_5 li span {
+    color: #999;
+}
+
+.section_5 ul li:last-of-type p {
+    color: #999;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* 位置周边 */
+
+.section_6 h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1.2rem;
+    border-bottom: 1px solid #c6c2c2;
+}
+
+.section_6 iframe {
+    width: 100%;
+    height: 25rem;
+    margin-top: 2.7rem;
+    margin-bottom: 2.7rem;
+}
+
+/* 推荐房源 */
+
+.section_7 {
+    margin-top: 1.5rem;
+    border-top: 1px solid #c6c2c2;
+    /* border-bottom: 1px solid #c6c2c2; */
+}
+
+.section_7 h2 {
+    font-size: 2rem;
+    line-height: 5rem;
+    padding-left: 3rem;
+    border-bottom: 1px solid #c6c2c2;
+}
+
+.section_7 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 3rem;
+}
+
+.section_7 .img img {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+
+.section_7 li:last-of-type {
+    border-bottom: none;
+}
+
+.section_7 li .zi h3 {
+    font-size: 1.8rem;
+    width: 20rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.section_7 li .zi p {
+    font-size: 1.4rem;
+    padding: 0.05rem 0;
+    color: #000;
+    overflow: hidden;
+    margin-top: 1rem;
+
+}
+
+.section_7 li .zi p:nth-of-type(2) {
+    color: #8b8b8b;
+}
+
+.section_7 li .zi strong {
+    color: #ff8a00;
+    float: right;
+}
+
+.section_7 li .zi p:nth-of-type(2) span {
+    color: #999999;
+    float: right;
+}
+
+.section_7 li .zi p a {
+    color: #849aae;
+    background: #f4f7f9;
+    padding: .15rem 1.3rem;
+}
+
+.section_7 ul li {
+    position: relative;
+    padding-bottom: 0.55rem;
+}
+
+.section_7 li .tips {
+    position: absolute;
+    top: 11.5rem;
+    background: #f2f2f2;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0.1rem;
+    font-size: 1.4rem;
+}
+
+.section_7 ul {
+    position: relative;
+}
+
+.section_7 .section_7_li {
+    margin-top: 5rem;
+}
+
+.section_7 .more {
+    text-align: center;
+    margin-top: 5rem;
+    border-top: 1px solid #c6c2c2;
+}
+
+.section_7 .more a {
+    margin-top: 8rem;
+    line-height: 6rem;
+    color: #666666;
+    font-size: 1.4rem;
+}
+
+/* 底部 */
+
+footer {
+    width: 100%;
+    background-color: rgb(47, 49, 48);
+    color: rgb(147, 148, 148);
+}
+
+.footer-top {
+    width: 90%;
+    height: 5rem;
+    line-height: 5rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(62, 64, 63);
+}
+
+.footer-bottom>ul {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.footer-bottom img {
+    width: 2.6rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.footer-bottom>ul>li {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+}
+
+.bottom-p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.agent {
+    height: 6.8rem;
+    line-height: 5.8rem;
+    /* text-align: center; */
+    padding: 1.2rem 1.2rem;
+}
+
+.agent a:nth-of-type(1) {
+    display: inline-block;
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: .7rem;
+    text-align: center;
+    background: #ff8a00 url(../image/SecondHandList/user.png)no-repeat 2rem center;
+    background-size: 3rem 3rem;
+}
+
+.agent a:nth-of-type(2) {
+    display: inline-block;
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 4rem;
+    margin-left: 3rem;
+    background: url(../image/SecondHandList/xin.png) 0 center no-repeat;
+    background-size: 3rem 3rem;
+}

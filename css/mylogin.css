@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 138, 0);
+}
+
+.head-logo {
+    height: 4rem;
+}
+
+.head-logo>a>img {
+    height: 100%;
+}
+
+.head-right {
+    height: 3.5rem;
+}
+
+.head-right>a>img {
+    height: 100%;
+    margin-left: 1.5rem;
+}
+
+/* 中间部分1 */
+
+.section {
+    height: 4.5rem;
+    padding-left: 2rem;
+    line-height: 4.5rem;
+
+}
+
+.section .section_s {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.section span {
+    font-size: 1.5rem;
+}
+
+.section_1 {
+    width: 100%;
+    height: 17rem;
+    background: url(../image/my/bg2.png) 0 0 no-repeat;
+    background-size: contain;
+}
+
+.section_1 img {
+    width: 5.4rem;
+    height: 5.4rem;
+    margin-top: 2.3rem;
+    margin-left: 15.8rem;
+}
+
+.section_1 p {
+    text-align: center;
+    color: white;
+    margin-top: 2.8rem;
+    font-size: 1.4rem;
+}
+
+/* 文字 */
+.section_2 {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.section_2 li a {
+    display: block;
+    height: 4.3rem;
+    line-height: 4.3rem;
+    border-bottom: 1px solid #dcdcdc;
+    background: url(../image/my/right.png) no-repeat right center;
+    background-size: .7rem 1.4rem;
+    margin-left: 1.4rem;
+    margin-right: 2.4rem;
+    color: #666;
+    font-size: 1.4rem;
+}
+
+.section_2 li:last-of-type a {
+    border-bottom: none;
+}
+
+/* 退出  */
+.tuichu {
+    display: inline-block;
+    width: 35rem;
+    height: 3.8rem;
+    color: #ff8a00;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 3.8rem;
+    margin: 3rem 1rem;
+}
