@@ -1,0 +1,285 @@
+.banner {
+    width: 100%;
+    height: 24rem;
+    background: url(/image/index/banner.png) no-repeat 0px 0px;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.banner>form {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 21rem;
+
+}
+
+.banner>form>span {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background: url(/image/index/seach.jpg);
+    background-size: cover;
+    top: 1rem;
+    left: 1rem;
+}
+
+.banner>form>input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    border-radius: 6px;
+    box-shadow: inset 3px 3px rgba(204, 204, 204, 0.39), 3px 3px rgba(204, 204, 204, 0.39);
+    padding-left: 3.5rem;
+    font-size: 1.4rem;
+}
+
+.index-nav {
+    width: 100%;
+}
+
+.index-nav>ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 138, 0);
+    padding: 2rem 0;
+}
+
+.index-nav>ul>Li>a {
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 7.5rem;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.index-nav>ul>li:nth-of-type(1) a {
+    background: url(/image/index/index_03.png)no-repeat;
+    background-size: contain;
+}
+
+.index-nav>ul>li:nth-of-type(2) a {
+    background: url(/image/index/index_05.png)no-repeat;
+    background-size: contain;
+}
+
+.index-nav>ul>li:nth-of-type(3) a {
+    background: url(/image/index/index_07.png)no-repeat;
+    background-size: contain;
+}
+
+.index-nav>ul>li:nth-of-type(4) a {
+    background: url(/image/index/index_09.png)no-repeat;
+    background-size: contain;
+}
+
+.banner2 {
+    padding: 1rem 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.banner2>img {
+    width: 100%;
+}
+
+.hot {
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.hot>div {
+    width: 100%;
+    background-color: rgb(255, 138, 0);
+}
+
+.rmfy {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding: 1rem 0;
+}
+
+.rmfy>p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.rmfy>p:nth-of-type(2) {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.hot>ul {
+    width: 100%;
+    list-style: none;
+}
+
+.hot ul>li {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+    border-bottom: 1px solid rgb(255, 63, 63);
+}
+
+.hot ul:nth-of-type(3)>li {
+    border: none;
+}
+
+.hot img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.rmfy-text {
+    width: 22rem;
+    overflow: hidden;
+}
+
+.rmfy-text h3 {
+    font-size: 1.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rmfy-text p:nth-of-type(1) {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+.rmfy-text strong {
+    color: rgb(255, 138, 0);
+    float: right;
+}
+
+.rmfy-text p:nth-of-type(2) {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+    color: gray;
+}
+
+.rmfy-text span {
+    float: right;
+}
+
+.rmfy-text p:nth-of-type(3) {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+.rmfy-text a {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    height: 1.8rem;
+    background-color: rgb(244, 247, 249);
+    margin-right: 0.5rem;
+    padding: 0 0.5rem;
+    color: rgb(132, 154, 174);
+}
+
+.gzlj {
+    width: 100%;
+    border-top: 0.5rem solid rgb(245, 245, 245);
+}
+
+.gzlj>ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    line-height: 6.5rem;
+    height: 6.5rem;
+    text-align: center;
+}
+
+.gzlj>Ul>li {
+    width: 50%;
+    color: gray;
+    border-bottom: 1px solid rgb(255, 156, 39);
+}
+
+#on {
+    color: rgb(255, 138, 0);
+    border-bottom: 2px solid rgb(255, 156, 39);
+}
+
+.gzlj-ul {
+    width: 100%;
+    display: flex;
+}
+
+.gzlj-ul>ul {
+    list-style: none;
+    flex: 1;
+    margin: 1rem 0 1rem 2rem;
+}
+
+.gzlj-ul a {
+    color: gray;
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.xiazai {
+    width: 100%;
+    height: 6rem;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+#guanb {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 0;
+}
+
+.xiaz-left {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    flex: 3;
+}
+
+.xiaz-left img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.xz-text {
+    color: white;
+    margin-left: 1.6rem;
+}
+
+.xz-text>p:nth-of-type(1) {
+    font-size: 2rem;
+}
+
+.xz-text>p:nth-of-type(2) {
+    font-size: 1.5rem;
+}
+
+.xz-cl {
+    flex: 2;
+    background-color: rgb(255, 138, 0);
+    height: 6rem;
+    text-align: center;
+    line-height: 6rem;
+    font-size: 2rem;
+}
+
+.xz-cl a {
+    color: white;
+}
