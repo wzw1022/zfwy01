@@ -65,7 +65,7 @@ touch.on(input_[5], 'tap', function () {
         alert('验证码不能为空！')
     } else if (input_[4].value != aaa_) {
         alert('验证码错误！');
-    } else if (!phonez_.test(input_[0].value)) {
+    } else if (!phonez_.test(input_[3].value)) {
         alert('手机号格式错误');
     } else {
         alert('登陆成功！');
