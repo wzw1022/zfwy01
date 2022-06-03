@@ -7,6 +7,7 @@ var span3_ = document.getElementsByClassName('yc-3')[0].getElementsByTagName('sp
 
 for (let i = 0; i < (yc_4.length - 2); i++) {
     touch.on(yc_4[i], 'tap', function () {
+        +6
         this.style.border = '1px solid orange';
     })
 }
