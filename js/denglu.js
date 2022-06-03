@@ -69,6 +69,8 @@ touch.on(input_[5], 'tap', function () {
         alert('手机号格式错误');
     } else {
         alert('登陆成功！');
-        setTimeout(window.location.href = 'index.html', 2);
+        localStorage.setItem("phone", input_[0].value);
+        setTimeout(window.location.href = 'myLogin.html', 2);
     }
 })
+
