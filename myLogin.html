@@ -22,7 +22,7 @@
     <!-- 中间部分 -->
     <div class="section">
         <p>
-            <a href="./index.html"><span class="section_s">首页</span></a>
+            <a href="./index.html" style="color: black;"><span class="section_s">首页</span></a>
             >
             <span>我的</span>
         </p>
@@ -73,7 +73,12 @@
     console.log(tuichu_);
     console.log(p_);
     window.onload = function () {
-        p_.innerHTML = '欢迎你，' + phone_;
+        if (phone_ == null) {
+            p_ = p_;
+        } else {
+            p_.innerHTML = '欢迎你，' + phone_;
+        }
+
     }
     touch.on(tuichu_, 'tap', function () {
         localStorage.clear();
