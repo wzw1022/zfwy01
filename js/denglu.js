@@ -54,9 +54,9 @@ touch.on(input_[2], 'tap', function () {
         alert('请先注册！');
     } else if (input_[1].value == password_) {
         alert('登录成功!');
-        setTimeout(window.location.href = 'index.html', 2);
+        setTimeout(window.location.href = 'myLogin.html', 2);
     } else {
-        alert('密码错误！')
+        alert('密码错误！');
     }
 })
 
@@ -75,4 +75,3 @@ touch.on(input_[5], 'tap', function () {
         setTimeout(window.location.href = 'myLogin.html', 2);
     }
 })
-
