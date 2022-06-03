@@ -13,7 +13,7 @@
 <body>
     <!-- 头部 -->
     <header>
-        <span class="head-logo"><a href="#"><img src="./image/index/logo.jpg" alt=""></a></span>
+        <span class="head-logo"><a href="./index.html"><img src="./image/index/logo.jpg" alt=""></a></span>
         <span class="head-right">
             <a href="./my.html"><img src="./image/index/my.jpg" alt=""></a>
             <a href="#"><img src="./image/index/xiazai.jpg" alt=""></a>
@@ -48,10 +48,11 @@
     </div>
 
     <!-- 退出  -->
-    <a class="tuichu" href="">退出</a>
+    <a class="tuichu" href="#">退出</a>
 </body>
 
 </html>
+<script src="js/touch.min.js"></script>
 <script>
     function setRem() {
         var ui_w = 375;
@@ -65,6 +66,19 @@
     }
     // window.onresize 浏览器被重置大小执行事件
     window.onresize = setRem;
+
+    var phone_ = localStorage.getItem('phone');
+    var p_ = document.getElementsByTagName('p')[1];
+    var tuichu_ = document.getElementsByClassName('tuichu')[0];
+    console.log(tuichu_);
+    console.log(p_);
+    window.onload = function () {
+        p_.innerHTML = '欢迎你，' + phone_;
+    }
+    touch.on(tuichu_, 'tap', function () {
+        localStorage.clear();
+        setTimeout(window.location.href = 'my.html', 2);
+    })
 
 
 </script>
