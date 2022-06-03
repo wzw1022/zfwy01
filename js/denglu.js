@@ -50,9 +50,9 @@ touch.on(input_[2], 'tap', function () {
         alert('密码不能为空！');
     } else if (!phonez_.test(input_[0].value)) {
         alert('手机号格式错误');
-    }else if (phone_ == null) {
+    } else if (phone_ == null) {
         alert('请先注册！');
-    }else if (input_[1].value == password_) {
+    } else if (input_[1].value == password_) {
         alert('登录成功!');
         setTimeout(window.location.href = 'index.html', 2);
     } else {
